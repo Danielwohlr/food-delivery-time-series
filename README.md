@@ -1,6 +1,25 @@
-# Prediction of Customers in Different Parts of Helsinki using Deep Learning
+# Predicting Customers in Different Parts of Helsinki using different Deep Learning
 
-This is home assignment as a part of application process for a summer internship, done by __Daniel Wohlrath__.
+This project is a demonstration of exploratory data analysis, showing my thought process during the problem structure: __Here you have data, make extractions, conclusions, predictions__.
+
+### Research question: Based on weather forecast, in which part of Helsinki are we (food delivery service) going to receive orders from in a specific day and hour?
+
+Understanding the customers' needs is of paramount desire in every type of customer-based business. Predicting the flow of orders can help to be one step ahead and plan accordingly to the demand. __Knowing the number of orders__ in different scenarios can help us answer the following:
+
+- In what parts of Helsinki is there need for couriers?
+- Should we focus on closing partnerships with restaurants in specific areas?
+- Are there specific times where the demand for our services is higher/lower?
+
+The above questions naturally suggest some features to be used in the prediction task:
+- location,
+- weather,
+- time.
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="imgs/uservenue.png" alt="Helsinki customers" title="Map of customers and venues" width="400"/>
+    <img src="imgs/rf.png" alt="Model" title="rf" width="400"/>
+</div>
+
 
 ## Table of Contents
 
