@@ -1,6 +1,6 @@
 # Prediction of Customers in Different Parts of Helsinki using Deep Learning
 
-This is home assignment as a part of application process for summer internship at Wolt, done by __Daniel Wohlrath__.
+This is home assignment as a part of application process for a summer internship, done by __Daniel Wohlrath__.
 
 ## Table of Contents
 
@@ -41,5 +41,4 @@ To run the code and see the results, open the Jupyter Notebook and run it cell b
 - - Evaluation on test data
 - Conclusions
 - Further Development
-- Me and My Background at Wolt
 
