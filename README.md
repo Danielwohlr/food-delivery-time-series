@@ -65,8 +65,7 @@ Presentation slides in pdf (7 slides excl. title slide) is located in ```present
 ## Main Code
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="imgs/bestrfscatter.png" alt="T intersection" title="best scatter predictions using RF" width="400"/>
-    <img src="imgs/averageweek.png" alt="Model" title="Average week" width="400"/>
+    <img src="imgs/bestrfscatter.png" alt="T intersection" title="best scatter predictions using RF	" width="400"/>
 </div>
 
 
