@@ -16,7 +16,7 @@ The above questions naturally suggest some features to be used in the prediction
 - time.
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="imgs/uservenue.png" alt="Helsinki customers" title="Map of customers and venues" width="400"/>
+    <img src="imgs/distclusters.png" alt="Helsinki customers" title="Map of customers and venues" width="400"/>
     <img src="imgs/rf.png" alt="Model" title="rf" width="400"/>
 </div>
 
@@ -46,7 +46,7 @@ Create the environment from the environment.yml file:
 Before running the main code in ```analysis.ipynb```, make sure that you're using the environment created from 'environment.yml'
 
 <div style="display: flex; justify-content: space-between;">
-    <img src="imgs/distclusters.png" alt="T intersection" title="Theoretical density" width="400"/>
+    <img src="imgs/uservenue.png" alt="T intersection" title="Theoretical density" width="400"/>
     <img src="imgs/kmeans.png" alt="Model" title="Theoretical Density" width="400"/>
 </div>
 
@@ -63,6 +63,12 @@ Presentation slides in pdf (7 slides excl. title slide) is located in ```present
 
 
 ## Main Code
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="imgs/bestrfscatter.png" alt="T intersection" title="best scatter predictions using RF" width="400"/>
+    <img src="imgs/averageweek.png" alt="Model" title="Average week" width="400"/>
+</div>
+
 
 All the coding was done in python using standard libraries like tensorflow, sklearn, numpy, pandas, etc. The code is located in a Jupyter Notebook ```analysis.ipynb```. I am importing some self-defined functions from ```preprocessing.py```, which uses similar libraries.
 
