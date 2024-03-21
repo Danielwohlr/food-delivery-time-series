@@ -30,6 +30,8 @@ The above questions naturally suggest some features to be used in the prediction
 
 ## Instructions
 
+All the analysis and results are in jupyter notebook ```analysis.ipynb``` and presentation slides ```presentation.pdf```.
+
 You can use the explicit specification files ```environment.yml``` to build an identical environment on your machine. It is not cross-platform. The platform it was created in is linux-x86_64.
 
 Please note that on other platforms, the packages specified might not be available or dependencies might be missing for some of the key packages already in the spec.
@@ -43,9 +45,22 @@ Create the environment from the environment.yml file:
 
 Before running the main code in ```analysis.ipynb```, make sure that you're using the environment created from 'environment.yml'
 
+<div style="display: flex; justify-content: space-between;">
+    <img src="imgs/distclusters.png" alt="T intersection" title="Theoretical density" width="400"/>
+    <img src="imgs/kmeans.png" alt="Model" title="Theoretical Density" width="400"/>
+</div>
+
+
+
 ## Presentation
 
 Presentation slides in pdf (7 slides excl. title slide) is located in ```presentation.pdf```
+
+<div style="display: flex; justify-content: space-between;">
+    <img src="imgs/rnn.png" alt="T intersection" title="LSTM RNN" width="400"/>
+    <img src="imgs/xgb.png" alt="Model" title="XGBoost" width="400"/>
+</div>
+
 
 ## Main Code
 
